@@ -154,6 +154,7 @@ function jogar(){
     divResultado.innerHTML = elementoResultado;
 
     document.getElementById('btnJogar').disabled = true;
+
     exibirCartaMaquina();
 
 }
@@ -171,4 +172,6 @@ function exibirCartaMaquina(){
     }
     let nome = `<p class="carta-subtitle">${cartaMaquina.nome}</p>`;
     divCartaMaquina.innerHTML = moldura + nome + tagHTML + opcoesTexto + '</div>';
+
+    
 }
